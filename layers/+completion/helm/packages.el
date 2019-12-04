@@ -61,6 +61,7 @@
 
 (defun helm/init-helm ()
   (use-package helm
+    :commands (helm-find-files-1)
     :defer (spacemacs/defer)
     :init
     (progn
