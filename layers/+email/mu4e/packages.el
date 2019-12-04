@@ -104,8 +104,8 @@
       (add-to-list 'mu4e-view-actions
                    '("View in browser" . mu4e-action-view-in-browser) t)
 
-      (add-hook 'mu4e-compose-mode-hook
-                (lambda () (use-hard-newlines t 'guess)))
+      ;; (add-hook 'mu4e-compose-mode-hook
+      ;;           (lambda () (use-hard-newlines t 'guess)))
 
       ;; from http://www.djcbsoftware.nl/code/mu/mu4e/Attaching-files-with-dired.html
       (require 'gnus-dired)
