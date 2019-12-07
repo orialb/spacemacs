@@ -27,6 +27,7 @@
         magit
         magit-gitflow
         magit-svn
+        magit-todos
         org
         (orgit :requires org)
         smeargle
@@ -248,6 +249,15 @@ Press [_b_] again to blame further in the history, [_q_] to go up or quit."
     :config (progn
               (spacemacs|diminish magit-svn-mode "SVN")
               (define-key magit-mode-map "~" 'magit-svn))))
+
+(defun git/init-magit-todos ()
+  (use-package magit-todos
+    :defer t
+    :hook (magit-mode . magit-todos-mode)
+    :init
+    ;; TODO: how to fix the "j" binding when point is in `magit-todos-section'?
+    ;; below is not working at the moment
+    (add-hook 'magit-todos-mode-hook 'oa//magit-todos-evil-bindings)))
 
 (defun git/init-orgit ()
   (use-package orgit
