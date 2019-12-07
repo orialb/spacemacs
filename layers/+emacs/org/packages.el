@@ -12,12 +12,15 @@
 (setq org-packages
       '(
         company
+        (company-math :requires company)
         company-emoji
         emoji-cheat-sheet-plus
         evil-org
         evil-surround
         gnuplot
-        (helm-org :toggle (configuration-layer/layer-used-p 'helm))
+        (helm-org :toggle (configuration-layer/layer-used-p 'helm)
+                  :location (recipe :fetcher github
+                                    :repo "emacs-helm/helm-org"))
         (helm-org-rifle :toggle (configuration-layer/layer-used-p 'helm))
         htmlize
         ;; ob, org and org-agenda are installed by `org-plus-contrib'
@@ -49,6 +52,15 @@
 
 (defun org/post-init-company ()
   (spacemacs|add-company-backends :backends company-capf :modes org-mode))
+
+(defun org/init-company-math ()
+  :defer t
+  :init (spacemacs|add-company-backends
+          :backends
+          company-math-symbols-latex
+          company-latex-commands
+          :modes
+          org-mode))
 
 (defun org/post-init-company-emoji ()
   (spacemacs|add-company-backends :backends company-emoji :modes org-mode))
