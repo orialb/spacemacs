@@ -79,6 +79,7 @@
 
 (defun oa//magit-todos-evil-bindings ()
   "Unbind some magit-todos bindings that collide with evil"
-  (evil-define-key nil 'magit-todos-section-map "j" nil)
-  (evil-define-key nil 'magit-todos-section-map "jT" nil)
-  (evil-define-key nil 'magit-todos-section-map "jl" nil))
+  (evil-define-key nil magit-todos-section-map "j" nil)
+  ;; (evil-define-key nil magit-todos-section-map "jT" nil)
+  ;; (evil-define-key nil magit-todos-section-map "jl" nil)
+  )

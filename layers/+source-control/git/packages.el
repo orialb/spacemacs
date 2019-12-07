@@ -255,8 +255,6 @@ Press [_b_] again to blame further in the history, [_q_] to go up or quit."
     :defer t
     :hook (magit-mode . magit-todos-mode)
     :init
-    ;; TODO: how to fix the "j" binding when point is in `magit-todos-section'?
-    ;; below is not working at the moment
     (add-hook 'magit-todos-mode-hook 'oa//magit-todos-evil-bindings)))
 
 (defun git/init-orgit ()
