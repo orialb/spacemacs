@@ -1,0 +1,13 @@
+# Target labels
+ libvterm
+# Source files and their labels
+/Users/oria/spacemacs-be/elpa/develop/vterm-20191203.544/build/CMakeFiles/libvterm
+/Users/oria/spacemacs-be/elpa/develop/vterm-20191203.544/build/CMakeFiles/libvterm.rule
+/Users/oria/spacemacs-be/elpa/develop/vterm-20191203.544/build/CMakeFiles/libvterm-complete.rule
+/Users/oria/spacemacs-be/elpa/develop/vterm-20191203.544/build/libvterm-prefix/src/libvterm-stamp/libvterm-install.rule
+/Users/oria/spacemacs-be/elpa/develop/vterm-20191203.544/build/libvterm-prefix/src/libvterm-stamp/libvterm-mkdir.rule
+/Users/oria/spacemacs-be/elpa/develop/vterm-20191203.544/build/libvterm-prefix/src/libvterm-stamp/libvterm-download.rule
+/Users/oria/spacemacs-be/elpa/develop/vterm-20191203.544/build/libvterm-prefix/src/libvterm-stamp/libvterm-update.rule
+/Users/oria/spacemacs-be/elpa/develop/vterm-20191203.544/build/libvterm-prefix/src/libvterm-stamp/libvterm-patch.rule
+/Users/oria/spacemacs-be/elpa/develop/vterm-20191203.544/build/libvterm-prefix/src/libvterm-stamp/libvterm-configure.rule
+/Users/oria/spacemacs-be/elpa/develop/vterm-20191203.544/build/libvterm-prefix/src/libvterm-stamp/libvterm-build.rule

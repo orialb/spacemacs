@@ -1,0 +1,2 @@
+;;; Generated package description from /Users/oria/spacemacs-be/elpa/develop/helm-org-20200311.733/helm-org.el  -*- no-byte-compile: t -*-
+(define-package "helm-org" "20200311.733" "Helm for org headlines and keywords completion" '((helm "3.3") (emacs "24.4")) :authors '(("Thierry Volpiatto" . "thierry.volpiatto@gmail.com")) :maintainer '("Thierry Volpiatto" . "thierry.volpiatto@gmail.com") :url "https://github.com/emacs-helm/helm-org")

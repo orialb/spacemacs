@@ -1,0 +1,5 @@
+/Users/oria/spacemacs-be/elpa/develop/vterm-20191203.544/build/CMakeFiles/rebuild_cache.dir
+/Users/oria/spacemacs-be/elpa/develop/vterm-20191203.544/build/CMakeFiles/edit_cache.dir
+/Users/oria/spacemacs-be/elpa/develop/vterm-20191203.544/build/CMakeFiles/libvterm.dir
+/Users/oria/spacemacs-be/elpa/develop/vterm-20191203.544/build/CMakeFiles/run.dir
+/Users/oria/spacemacs-be/elpa/develop/vterm-20191203.544/build/CMakeFiles/vterm-module.dir
